@@ -1,13 +1,13 @@
 'use client'
 
 
-export default function Home({}) {
+export default function CountriesDash({}) {
 
     
 
     return (
         <div>
-
+            countries 
         </div>
     );
 }
