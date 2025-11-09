@@ -19,8 +19,12 @@ bun dev
 it is a fun exercise to learn about mysql databases and making dashboards 
 
 
-## database -> world database 
+## database -> world database
+
+this is the database being used. 
+
 https://dev.mysql.com/doc/world-setup/en/
+
 
 ![alt text](image.png)
 

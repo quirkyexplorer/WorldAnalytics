@@ -25,13 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        
-        <h1 className="text-3xl font-bold underline flex flex-col items-center">this the main page</h1>
-
+        <h1 className="text-3xl font-bold underline flex flex-col items-center">World Analytics</h1>
         <Nav></Nav>
         {children}
       </body>
