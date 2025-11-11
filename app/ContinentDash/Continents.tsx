@@ -1,7 +1,7 @@
 'use client'
 import {Continent, ContinentListProps} from "../types/types"
 import { useState } from "react";
-
+import ContinentLayout from "./ContinentLayout";
 
 export default function Continents ( {continents} : ContinentListProps) {
 
@@ -29,8 +29,12 @@ export default function Continents ( {continents} : ContinentListProps) {
                             );
                         })}
 
-                        
+
                     </div>
+{/* 
+                        {
+                            currContinent && <ContinentLayout continentName={currContinent.name} />
+                        } */}
                 </div>
             </div>
     );
